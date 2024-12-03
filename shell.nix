@@ -2,14 +2,12 @@
 { pkgs ? import <nixpkgs> {} }:
 
 pkgs.mkShell rec {
-  name = "my-dev-env";  # Имя окружения
+  name = "Foundation";  # Имя окружения
   buildInputs = [
-    pkgs.python39      # Установка Python 3.9
-    pkgs.git           # Установка Git
-    pkgs.nodejs        # Установка Node.js
-    pkgs.vim           # Установка Vim
+    pkgs.fastfetch
   ];
 
   shellHook = ''
     echo "Welcome to the dev environment!"
   '';  
+}
