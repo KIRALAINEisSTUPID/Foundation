@@ -31,7 +31,6 @@ int main(){
 
 
     // 3   mashq
-    //int kvadratning yuzasi;
     cout << "bilmoqchi bolgan kvadratingizni bir tomonining qiymatini kiriting:";
 
     cin >> a;
@@ -203,10 +202,10 @@ int main(){
     // 15  mashq
     cout << "sonni kiritng:  ";
     cin >>a;
-    int secondstep = a*a;
-    int newstep = secondstep * secondstep;
+    secondstep = a*a;
+    newstep = secondstep * secondstep;
     int sixstep = newstep * secondstep;
-     cout << "sonning 6 darajasi:" << sixstep<<endl;
+    cout << "sonning 6 darajasi:" << sixstep<<endl;
 
 
 
@@ -219,13 +218,13 @@ int main(){
     cout << "son kiritng: ";
     cin >> a;
 
-    int square = a * a;        // 1-е умножение: возведение в квадрат
-    int fourth = square * square;        // 2-е умножение: квадрат квадрата (4-я степень)
-    int eighth = fourth * fourth;        // 3-е умножение: квадрат четвёртой степени (8-я степень)
-    int sixteenth = eighth * eighth;     // 4-е умножение: квадрат восьмой степени (16-я степень)
-    int fifteenth = sixteenth / a;  // 5-е действие: делим 16-ю степень на число (получаем 15-ю степень)
+    int square = a * a;        
+    int fourth = square * square;        
+    int eighth = fourth * fourth;        
+    int sixteenth = eighth * eighth;     
+    int fifteenth = sixteenth / a;  
 
-    std::cout << a << "sonning" << " 15 darajasi " << fifteenth << "ga teng"<<endl;
+    cout << a << "sonning" << " 15 darajasi " << fifteenth << "ga teng"<<endl;
 
 
 
