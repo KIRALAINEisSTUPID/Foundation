@@ -3,5 +3,5 @@
 
 
 
-### This repository only for learning,thats all🙂
+### Yunusov Komronbek,F240 guruh o'quvchisining FOUNDATION guruhi personal repositroysi
 
