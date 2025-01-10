@@ -3,5 +3,3 @@
 
 
 
-### Yunusov Komronbek,F240 guruh o'quvchisining FOUNDATION guruhi personal repositroysi
-
